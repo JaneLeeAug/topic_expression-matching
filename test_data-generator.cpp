@@ -6,11 +6,11 @@
 #include <Windows.h>
 
 using namespace std;
-int number = 10;   /*½Ğ³]©w*/           // ²Õ¼Æ 
-int MaxOfTopicN = 100;               // Topic¼Æ¶q 
-int MaxOfTopicL = 20;                //  Topicªø«× 
-float SR = 1;   /*½Ğ³]©w*/            // ¬Û¦ü«× SR (similarity ratio)
-float WP = 1;   /*½Ğ³]©w*/            //¦h°t²Å¥X²{¤ñ WP (multi-field wildcard percentage ratio) 
+int number = ;   /*è«‹è¨­å®š*/           // çµ„æ•¸ 
+int MaxOfTopicN = 100;               // Topicæ•¸é‡ 
+int MaxOfTopicL = 20;                //  Topicé•·åº¦ 
+float SR = ;   /*è«‹è¨­å®š*/            // ç›¸ä¼¼åº¦ SR (similarity ratio)
+float WP = ;   /*è«‹è¨­å®š*/            //å¤šé…ç¬¦å‡ºç¾æ¯” WP (multi-field wildcard percentage ratio) 
 
 int main(){
 	
@@ -122,12 +122,12 @@ int main(){
 				outStream2 << ".";
 			}
 		}
-		/*---------------------------------------¥H¤W¬OSQE---------------------------------------*/
+		/*---------------------------------------ä»¥ä¸Šæ˜¯SQE---------------------------------------*/
 		
 		outStream << ",";
 		outStream2 << ",";
 		
-		/*---------------------------------------¥H¤U¬OSRE---------------------------------------*/
+		/*---------------------------------------ä»¥ä¸‹æ˜¯SRE---------------------------------------*/
 		topic_length = rand() % MaxOfTopicN + 1;  
 		sre = new string[topic_length]; int start;
 		int Nsame;	
